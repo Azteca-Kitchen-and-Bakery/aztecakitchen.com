@@ -1,0 +1,17 @@
+@import '../../styles/variables';
+.header{
+    //margin: 0 -4rem;
+    padding:0 2rem;
+    // width:$mainWidth+8rem;
+}
+.link{
+    color:red;
+    text-align: center;
+}
+
+@include breakpoint('max-width:1023px'){
+    .header{
+        margin:0;
+        width:100%;
+    }
+}
