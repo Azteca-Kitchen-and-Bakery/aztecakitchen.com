@@ -1,3 +1,8 @@
-node_modules
-public/*
 .cache
+node_modules
+public/icons
+public/index.html
+public/manifest.webmanifest
+public/page-data
+public/static
+
