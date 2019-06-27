@@ -1,0 +1,17 @@
+@import '../../styles/variables';
+
+.section{
+    background:rgba(0,0,0,0.02);
+}
+.heading{
+    font-family: $fontHeading;
+}
+.description{
+    font-family: $fontMono;
+    color:red;
+}
+.table{
+    margin:12px 0 0;
+    font-family: $fontMono;
+    border-top:1px solid rgba(0,0,0,0.5);
+}

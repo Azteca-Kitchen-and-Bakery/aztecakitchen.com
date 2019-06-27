@@ -1,23 +1,31 @@
 .socialList{
-    margin:24px 0 0;
+    display: block;
+    margin:24px auto 0;
     padding:0;
     li{
       list-style: none;
       display: inline;
-      padding-right:24px;
+      margin:0 12px 0 0;
       a{
+        display: inline-block;
         position: relative;
-        color:#FFFFFF;
+        color:#fff;
+        height:36px;
+        width:36px;
+        line-height: 36px;
+        background:blue;
+        border-radius:36px;
+        padding:2px 0 0 0;
+        text-align: center;
         svg{
-          transform: scale(0.8);
+          margin:0 auto;
+          transform: scale(0.6);
           position: relative;
-          color:#FFFFFF;
+          color:#fff;
         }
         &:hover{
-          svg{
-            transition:all 250ms;
-            transform: scale(0.9);
-          }
+          transition:all 250ms;
+          transform: scale(1.1);
         }
       }
     }

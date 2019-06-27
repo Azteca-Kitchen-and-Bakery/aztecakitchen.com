@@ -20,7 +20,6 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; 
   margin: 0;
-  font-family: Cabin;
   overflow-x: hidden;
 }
 `;

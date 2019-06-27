@@ -1,7 +1,8 @@
+@import './fonts.scss';
+
 $mainWidth:60rem;
 $heroWidth:80rem;
 $heroOffset:($mainWidth - $heroWidth)/2;
-
 
 $breakpoints: (
   sm:(min:320px, max:479px),
@@ -31,3 +32,7 @@ $breakpoints: (
         @content;
     }
 }
+
+$fontBody: 'Roboto', sans-serif;
+$fontMono: 'B612 Mono', monospace;
+$fontHeading: 'Roboto', sans-serif;

@@ -5,28 +5,28 @@ import Brand from '../../atoms/brand'
 
 const links_left = [
   {
-    name: "link 1",
-    value: "404"
+    name: "All day menu",
+    value: "/menu/all-day"
   },
   {
-    name: "link 2",
-    value: "value2"
+    name: "Breakfast menu",
+    value: "/menu/breakfast"
   }
 ];
 const links_right = [
   {
-    name: "link 3",
-    value: "value3"
+    name: "Order by the LB",
+    value: "/menu/order-by-the-pound"
   },
   {
-    name: "link 4",
-    value: "value4"
+    name: "Contact us",
+    value: "/contact"
   }
 ];
 const navLinks = (link_arr) => {
   return (
     link_arr.map(({ name, value }) => (
-      <Link flex="1" className={styles.link} key={name} to={value}>
+      <Link flex="1" className={styles.link} key={name} href={value}>
         {name}
       </Link>
     ))

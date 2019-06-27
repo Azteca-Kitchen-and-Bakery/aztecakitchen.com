@@ -1,10 +1,10 @@
 import React from 'react';
-import {Image} from 'rebass';
+import {Link, Image} from 'rebass';
 
 const Brand = () => (
-    <Image
+    <Link href="/"><Image
     width={1/4}
-    src='media/placeholder.png'
-    />
+    src='/media/placeholder.png'
+    /></Link>
 );
 export default Brand;
