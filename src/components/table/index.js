@@ -26,7 +26,7 @@ function columnCount(c){
 class Table extends React.Component {
     
     render(){
-        const {data,className,size,columns} = this.props;
+        const {data,size,columns} = this.props;
         return (
             <div className={columnCount(columns)}>
             {data.map(({ label, value }, index) => (

@@ -1,5 +1,5 @@
 {
-  "name": "AztecaKitchen&Bakery",
+  "name": "AztecaKitchenBakery",
   "description": "Phase 1 of the Azteca site",
   "version": "1.0.0",
   "author": "Jason Geiger <hello@130public.net>",
@@ -23,6 +23,7 @@
     "gatsby-plugin-sass": "^2.2.1",
     "gatsby-plugin-sharp": "^2.5.4",
     "gatsby-plugin-styled-components": "^3.2.1",
+    "gatsby-source-filesystem": "^2.2.2",
     "node-sass": "^4.13.1",
     "prop-types": "^15.6.2",
     "react": "^16.13.1",

@@ -5,8 +5,10 @@ require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
-    title: `Site title`,
-    url: `https://example.com/`
+    title: `Azteca Kitchen & Bakery`,
+    description: `Phase 1 of the Azteca site`,
+    url: `/`,
+    author: `Jason J Geiger (130public.net)`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -21,9 +23,15 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `assets`,
+        path: `${__dirname}/src/assets`,
+      },
+    },
+    {
       resolve: 'gatsby-plugin-manifest',
       options: manifestConfig,
-    },
-    'gatsby-plugin-styled-components',
+    }
   ]
 }

@@ -5,9 +5,6 @@ import styles from './menu.module.scss';
 
 
 class Menu extends React.Component {
-  constructor(props){
-      super(props);
-  }
   render(){
         const {items} = this.props;
         return (

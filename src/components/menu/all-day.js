@@ -1,14 +1,10 @@
 import React from 'react';
-import { Flex, Heading, Box } from 'rebass';
+import { Flex, Box } from 'rebass';
 import Menu from '../menu';
 import MenuData from '../../data/allday-menu';
 
 const AllDayMenu = () => (
-    <Flex
-        flexWrap="wrap"
-        justifyContent="space-between"
-        alignItems="top"
-      >
+    <Flex flexWrap="wrap" justifyContent="space-between" alignItems="top">
       <Box width={1}>
         <Menu items={MenuData.burritos} />
       </Box>
