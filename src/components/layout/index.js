@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import PropTypes from 'prop-types';
 import Styles from './layout.module.scss'
 import Helmet from '../helmet';
 import Header from '../header';
@@ -20,9 +19,5 @@ const Layout = ({ children }) => (
         </div>
   </Fragment>
 );
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-};
 
 export default Layout;
