@@ -1,0 +1,33 @@
+@import '../style/variables';
+.header{
+    height:200px;
+    padding:2rem 2rem 0;
+}
+.link{
+    color:$colorBlue;
+    text-align: center;
+    font-family: $fontHeading;
+    display: block;
+    font-size:$fontSizeBase;
+    width:100%;
+}
+@include breakpoint('max-width:1023px'){
+    .header{
+        margin:0;
+        width:100%;
+    }
+}
+@include breakpoint('sm'){
+    .left{
+        order:2;
+        display: block;
+    }
+    .center{
+        order:1;
+        display: block;
+    }
+    .right{
+        order:3;
+        display: block;
+    }
+}

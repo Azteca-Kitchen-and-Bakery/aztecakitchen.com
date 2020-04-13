@@ -1,0 +1,14 @@
+@import '../style/variables';
+
+.section{}
+.heading{
+    font-family: $fontHeading;
+}
+.description{
+    font-family: $fontBody;
+    color:$colorBlue;
+}
+.table{
+    margin:12px 0 0;
+    font-family: $fontBody;
+}

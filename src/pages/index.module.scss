@@ -1,0 +1,28 @@
+@import '../components/style/variables';
+
+.heading{
+    font-family: $fontSizeHeading1;
+    text-align:center;
+    text-transform:uppercase;
+}
+hr{
+    margin:2rem auto;
+    border:0;
+    height:1rem;
+    width:28rem;
+    background:$colorYellow;
+}
+.hero{
+    margin:2rem 0;
+}
+.section{
+    margin:0 auto;
+    max-width:48rem;
+    padding:0 3rem;
+    @include breakpoint('max-width:1023px'){
+        padding:0 2rem;
+    }
+}
+.intro,.address,.phone,.social{
+    margin:0 0 2rem;
+}

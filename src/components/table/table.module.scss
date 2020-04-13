@@ -1,0 +1,20 @@
+@import '../style/variables';
+.column1{}
+.column2{
+    column-count: 2;
+    column-gap: 0;
+    @include breakpoint('max-width:769px'){
+        column-count: 1;
+    }
+}
+
+.item{
+    break-inside: avoid-column;
+    width:100%;
+}
+.label{
+   color:$colorBlue; 
+}
+.value{
+    color:$colorBlue;
+}

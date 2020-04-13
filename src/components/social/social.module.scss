@@ -1,0 +1,37 @@
+@import '../style/variables';
+.socialList{
+    display: block;
+    margin:24px auto 0;
+    ul{
+      margin:0;
+      padding:0;
+      text-align:center;
+      li{
+        list-style: none;
+        display: inline;
+        margin:0 12px 0 0;
+        a{
+          display: inline-block;
+          position: relative;
+          color:white;
+          height:36px;
+          width:36px;
+          line-height: 36px;
+          background:$colorBlue;
+          border-radius:36px;
+          padding:2px 0 0 0;
+          text-align: center;
+          svg{
+            margin:0 auto;
+            transform: scale(0.6);
+            position: relative;
+            color:#fff;
+          }
+          &:hover{
+            transition:all 250ms;
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }

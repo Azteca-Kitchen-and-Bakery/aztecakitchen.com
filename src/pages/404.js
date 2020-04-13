@@ -1,6 +1,6 @@
 import React from 'react';
 import { Heading, Box } from 'rebass';
-import Layout from '../templates/layout';
+import Layout from '../components/layout';
 
 const NotFoundPage = () => (
   <Layout>

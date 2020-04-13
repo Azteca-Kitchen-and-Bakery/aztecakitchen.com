@@ -1,0 +1,59 @@
+@import '../style/variables';
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html,body{
+  margin:0;
+  padding:0;
+}
+body{
+  font-size:$fontSizeBase;
+  font-family:$fontBody;
+  color:$colorBlue;
+  // background:$colorYellow;
+}
+.layout{
+    margin:0 auto;
+    padding:0;
+    max-width:84rem;
+    z-index:1;
+    border-width:1rem 0;
+    border-style:solid;
+    border-color:$colorYellow;
+    font-family:$fontBody;
+    @include breakpoint('max-width:1023px'){
+      border-width:0.5rem 0;
+    }
+    // background-color: white;
+    &:before{
+      position:fixed;
+      top:0;
+      left:0;
+      content:" ";
+      height:100vh;
+      background-image:url(../../assets/background-left.png);
+      background-repeat: repeat-y;
+      background-position:-60px 0;
+      background-size:300px;
+      width:240px;
+      z-index:-1
+    }
+    &:after{
+      position:fixed;
+      top:0;
+      right:0;
+      content:" ";
+      height:100vh;
+      background-image:url(../../assets/background-right.png);
+      background-repeat: repeat-y;
+      background-position:0 0;
+      background-size:300px;
+      width:240px;
+      z-index:-1
+    }
+}
