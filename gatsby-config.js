@@ -1,5 +1,4 @@
 const manifestConfig = require('./config/manifest');
-require('dotenv').config();
 
 //const { ACCESS_TOKEN, SPACE_ID, ANALYTICS_ID } = process.env;
 
