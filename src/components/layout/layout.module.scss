@@ -58,6 +58,12 @@ body{
       background-image:url(../../assets/background-right.png);
       background-position:0 0;
     }
+    @include breakpoint('max-width:1366px'){
+      &:before, &:after{
+        background-size:320px;
+        width:240px;
+      }
+    }
     @include breakpoint('max-width:1023px'){
       &:before, &:after{
         position: fixed;
