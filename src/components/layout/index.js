@@ -9,14 +9,14 @@ import Footer from '../footer';
 
 const Layout = ({ children }) => (
   <Fragment>
-        <Helmet />
-        <div>
-          <div className={Styles.layout}>
-            <Header/>
-            {children}
-            <Footer/>
-          </div>
-        </div>
+    <Helmet />
+    <div>
+      <div className={Styles.layout}>
+        <Header/>
+        {children}
+        <Footer/>
+      </div>
+    </div>
   </Fragment>
 );
 

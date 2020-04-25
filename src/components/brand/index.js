@@ -3,7 +3,7 @@ import {Link, Image} from 'rebass';
 import Logo from '../../assets/azteca-logo.svg';
 
 const logoStyle = {
-    width:208
+    width:192
 }
 
 const Brand = () => (

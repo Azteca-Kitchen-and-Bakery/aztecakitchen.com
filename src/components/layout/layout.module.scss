@@ -1,6 +1,5 @@
 @import '../style/variables';
 
-
 html {
   box-sizing: border-box;
 }
@@ -10,50 +9,68 @@ html {
 html,body{
   margin:0;
   padding:0;
+  background:$colorYellow;
 }
 body{
   font-size:$fontSizeBase;
   font-family:$fontBody;
   color:$colorBlue;
-  // background:$colorYellow;
-}
-.layout{
-    margin:0 auto;
-    padding:0;
-    max-width:84rem;
-    z-index:1;
-    border-width:1rem 0;
+  &:before{
+    position: fixed;
+    content:"";
+    height:100vh;
+    width:100vw;
+    border-width:1rem;
     border-style:solid;
     border-color:$colorYellow;
-    font-family:$fontBody;
+    z-index: 2;
+    pointer-events: none;
     @include breakpoint('max-width:1023px'){
-      border-width:0.5rem 0;
+      border-width:0.5rem;
     }
-    // background-color: white;
-    &:before{
+  }
+}
+.layout{
+    position: relative;
+    margin:0 auto;
+    padding:0;
+    z-index:1;
+    font-family:$fontBody;
+    background:white;
+    &:before, &:after{
       position:fixed;
       top:0;
-      left:0;
       content:" ";
       height:100vh;
-      background-image:url(../../assets/background-left.png);
       background-repeat: repeat-y;
-      background-position:-60px 0;
-      background-size:300px;
-      width:240px;
-      z-index:-1
+      background-size:400px;
+      width:320px;
+      overflow: hidden;
+      z-index:-1;
+    }
+    &:before{
+      left:0;
+      background-image:url(../../assets/background-left.png);
+      background-position:-80px 0;
     }
     &:after{
-      position:fixed;
-      top:0;
       right:0;
-      content:" ";
-      height:100vh;
       background-image:url(../../assets/background-right.png);
-      background-repeat: repeat-y;
       background-position:0 0;
-      background-size:300px;
-      width:240px;
-      z-index:-1
+    }
+    @include breakpoint('max-width:1023px'){
+      &:before, &:after{
+        position: fixed;
+        background-size:50vw;
+        width:50vw;
+        opacity:0.2;
+      }
+      &:before{
+        background-position:0;
+      }
+      &:after{
+        left:50vw;
+        right:auto;
+      }
     }
 }

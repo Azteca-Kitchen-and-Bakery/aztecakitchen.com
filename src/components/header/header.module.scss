@@ -1,15 +1,29 @@
 @import '../style/variables';
 .header{
-    height:200px;
-    padding:2rem 2rem 0;
+    padding:3rem 0 1rem;
+}
+.center{
+    padding:0 4rem;
+}
+.left,.right{
+    padding:0.25rem 0 0;
+    position: relative;
 }
 .link{
+    margin:0.3em;
+    padding:0 3rem;
     color:$colorBlue;
     text-align: center;
     font-family: $fontHeading;
     display: block;
-    font-size:$fontSizeBase;
+    font-size:($fontSizeBase * 0.8);
+    letter-spacing: 0.3em;
+    text-decoration: none;
+    text-transform: uppercase;
     width:100%;
+    &:hover{
+        background:$colorYellow;
+    }
 }
 @include breakpoint('max-width:1023px'){
     .header{

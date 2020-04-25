@@ -1,0 +1,23 @@
+@import '../style/variables';
+
+.footer{
+    &:before,&:after{
+        position:fixed;
+        bottom:0;
+        content:"";
+        height:120px;
+        width:120px;
+        background-size:90px;
+        background-image:url(../../assets/family-owned.svg);
+        background-repeat: no-repeat;
+    }
+    &:before{
+        left:3rem;
+    }
+    &:after{
+        right:3rem;
+    }
+    @include breakpoint('max-width:800px'){
+        display: none;
+    }
+}

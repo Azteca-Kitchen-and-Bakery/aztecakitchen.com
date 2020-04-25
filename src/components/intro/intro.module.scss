@@ -2,5 +2,19 @@
 
 .intro{
     margin:1rem auto;
-    font-size:$fontSizeBody1;
+    .heading{
+        font-family: $fontHeading;
+        font-weight: normal;
+        font-size:$fontSizeHeading3;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing:0.3em;
+    }
+    .body{
+        font-family: $fontBody;
+        font-weight: normal;
+        font-size:$fontSizeBase;
+        line-height: ($fontSizeBase * 2);
+        text-align: center;
+    }
 }

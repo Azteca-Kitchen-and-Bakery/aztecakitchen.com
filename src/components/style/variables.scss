@@ -11,7 +11,7 @@ $fontSizeHeading3:($fontSizeBase*1.625); //26
 $fontSizeBody1:($fontSizeBase*1.375); //22px
 $fontSizeBody2:($fontSizeBase); //16px
 
-$colorBlue:rgb(41,56,150);
+$colorBlue:rgb(42,59,148);
 $colorYellow:rgb(255,244,92);
 
 $breakpoints: (
@@ -43,5 +43,20 @@ $breakpoints: (
     }
 }
 
-$fontBody: 'Nanum Gothic Coding', monospace;
 $fontHeading: 'Oswald', sans-serif;
+$fontBody: 'Nanum Gothic Coding', monospace;
+
+.font-heading{
+    font-family:$fontHeading;
+}
+.font-body{
+    font-family:$fontBody;
+}
+.hide-sm-only{
+
+}
+@include breakpoint('sm'){
+    .hide-md-only{
+        display:none;
+    }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Flex, Box, Link } from 'rebass';
-import styles from './header.module.scss'
+import { Flex, Box } from 'rebass';
+import Styles from './header.module.scss'
 import Brand from '../brand'
 
 const links_left = [
@@ -26,9 +26,9 @@ const links_right = [
 const navLinks = (link_arr) => {
   return (
     link_arr.map(({ name, value }) => (
-      <Link className={styles.link} key={name} href={value}>
+      <a className={Styles.link} key={name} href={value}>
         {name}
-      </Link>
+      </a>
     ))
   )
 }
@@ -38,13 +38,16 @@ const Header = () => (
     <Flex
         flexWrap="wrap"
         justifyContent="space-between"
-        alignItems="center"
-        p={0}
-        className={styles.header}
+        alignItems="top"
+        className={Styles.header}
       >
-        <Flex className={styles.left} width={[1,1/3]}>{navLinks(links_left)}</Flex>
+        <Flex className={Styles.left} width={[1,1/3]}>
+          <div style={{"position":"absolute","right":0}}>
+            {navLinks(links_left)}
+          </div>
+        </Flex>
         <Box 
-          className={styles.center}
+          className={Styles.center}
           width={[1,1/3]}
           css={{
             textAlign: 'center'
@@ -52,7 +55,11 @@ const Header = () => (
         >
           <Brand />
         </Box>
-        <Flex className={styles.right} width={[1,1/3]}>{navLinks(links_right)}</Flex>
+        <Flex className={Styles.right} width={[1,1/3]}>
+          <div style={{"position":"absolute","left":0}}>
+            {navLinks(links_right)}
+          </div>
+        </Flex>
       </Flex>
 
 );

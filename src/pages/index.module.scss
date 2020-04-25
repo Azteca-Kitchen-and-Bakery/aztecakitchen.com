@@ -11,15 +11,19 @@ hr{
     height:1rem;
     width:28rem;
     background:$colorYellow;
-}
-.hero{
-    margin:2rem 0;
+    @include breakpoint('max-width:1023px'){
+        margin:2rem 2rem;
+        width:auto;
+    }
 }
 .section{
     margin:0 auto;
     max-width:48rem;
     padding:0 3rem;
     @include breakpoint('max-width:1023px'){
+        padding:0 8rem;
+    }
+    @include breakpoint('max-width:480px'){
         padding:0 2rem;
     }
 }

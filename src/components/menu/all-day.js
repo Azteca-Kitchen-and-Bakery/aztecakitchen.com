@@ -6,7 +6,7 @@ import MenuData from '../../data/allday-menu';
 const AllDayMenu = () => (
     <Flex flexWrap="wrap" justifyContent="space-between" alignItems="top">
       <Box width={1}>
-        <Menu items={MenuData.burritos} />
+        <Menu items={MenuData.burritos} width={1} columns={2} />
       </Box>
       <Box width={1}>
         <Menu items={MenuData.tacos} />
