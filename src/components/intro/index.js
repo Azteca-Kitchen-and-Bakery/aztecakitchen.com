@@ -1,6 +1,7 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import Styles from './intro.module.scss';
+import RestaurantSchema from '../schema/restaurant'
 
 const Intro = () => (
     <StaticQuery
@@ -36,6 +37,9 @@ const Intro = () => (
                 <p className={Styles.body}>Stop in to see (and smell!) our full selection<br/>of traditional Mexican pastries and bolillo<br/>(Mexican white bread) baked fresh daily!</p>
                 <p className={Styles.heading}>{address.streetAddress}<br/>{address.addressLocality}, {address.addressRegion} {address.postalCode}</p>
                 <p className={Styles.heading}>P {telephone}<br/>F {fax}</p>
+                <script type="application/ld+json">
+                  {JSON.stringify(RestaurantSchema)}
+                </script>
             </div>
         );
       }}

@@ -1,5 +1,6 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
+import {JSONLD, Product, AggregateRating} from 'react-structured-data';
 
 const RestaurantSchema = () => (
     <StaticQuery
@@ -7,54 +8,47 @@ const RestaurantSchema = () => (
         query RestaurantSchema {
           site {
             siteMetadata {
-                business{
-                    address{
-                        addressLocality
-                        addressRegion
-                        postalCode
-                        streetAddress
-                    }
-                    openingHours{
-                        schema
-                    }
-                    telephone
-                    fax
-                    priceRange
-                    servesCuisine
+              title
+              url
+              business{
+                address{
+                  addressLocality
+                  addressRegion
+                  postalCode
+                  streetAddress
                 }
+                telephone
+                fax
+                priceRange
+                servesCuisine
+              }
             }
           }
         }
       `}
       render={data => {
-        const {name,url,image,address,openingHours,telephone,fax,priceRange,servesCuisine} = data.site.siteMetadata.business;
-        
-        return (
-          <script type="application/ld+json">
-            {
-            `{
-                  "@context": "http://schema.org",
-                  "@type": "Restaurant",
-                  "name": "${name}",
-                  "url": "${url}",
-                  "image": "${image}",
-                  "telephone": "${telephone}",
-                  "fax": "${fax}",
-                  "address": {
-                      "@type": "PostalAddress",
-                      "addressLocality": "${address.addressLocality}",
-                      "addressRegion": "${address.addressRegion}",
-                      "postalCode": "${address.postalCode}",
-                      "streetAddress": "${address.streetAddress}"
-                  },
-                  "openingHours": "${openingHours.schema}",
-                  "priceRange": "${priceRange}",
-                  "servesCuisine": "${servesCuisine}"
-              }`
-            }
-          </script>
-        );
-      }}
-    />
-  );
+        const {business} = data.site.siteMetadata;
+        const schema = {
+          "@context": "http://schema.org",
+          "@type": "Restaurant",
+          "name": business.name,
+          "url": business.url,
+          "image": business.image,
+          "telephone": business.telephone,
+          "fax": business.fax,
+          "address": {
+              "@type": "PostalAddress",
+              "addressLocality": business.address.addressLocality,
+              "addressRegion": business.address.addressRegion,
+              "postalCode": business.address.postalCode,
+              "streetAddress": business.address.streetAddress
+          },
+          // "openingHours": openingHours.schema,
+          "priceRange": business.priceRange,
+          "servesCuisine": business.servesCuisine
+      }
+      return ('')
+    }}
+  />
+);
   export default RestaurantSchema;

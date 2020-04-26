@@ -3,6 +3,9 @@
 .section{}
 .heading{
     font-family: $fontHeading;
+    font-weight:normal;
+    letter-spacing:0.3em;
+    text-transform: uppercase;
 }
 .description{
     font-family: $fontBody;
