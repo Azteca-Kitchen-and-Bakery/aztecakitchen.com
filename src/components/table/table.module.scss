@@ -1,4 +1,10 @@
 @import '../style/variables';
+.table{
+    margin:1rem 0 0;
+    font-family: $fontBody;
+    font-size:$fontSizeBody2;
+    line-height:1.3rem;
+}
 .column1{}
 .column2{
     column-count: 2;
@@ -7,14 +13,34 @@
         column-count: 1;
     }
 }
-
 .item{
     break-inside: avoid-column;
     width:100%;
 }
+.itemTitle{
+    position: relative;
+    break-inside: avoid-column;
+    width:100%;
+    &:before{
+        position: relative;
+        right:0;
+        top:0.4rem;
+        content:"";
+        height:0.9rem;
+        width:320px;
+        background:$colorYellow;
+        z-index:-1;
+        transform: rotate(-0.5deg);
+        transition: all 100ms;
+    }
+}
 .label{
-   color:$colorBlue; 
+   color:$colorBlue;
+   font-size:$fontSizeBody2;
+   line-height:1.3rem;
 }
 .value{
     color:$colorBlue;
+    font-size:$fontSizeBody2;
+    line-height:1.3rem;
 }

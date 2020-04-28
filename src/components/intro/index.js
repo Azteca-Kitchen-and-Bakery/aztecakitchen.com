@@ -32,11 +32,15 @@ const Intro = () => (
         return (
             <div className={Styles.intro}>
                 <h2 className={Styles.body}>Serving authentic Mexican family recipes<br className="hide-md-only" />for Breakfast, Lunch and Dinner.<br/>All-natural ingredients. No Preservatives.</h2>
-                <p className={Styles.heading}>{openingHours.formatted[0]}<br/>{openingHours.formatted[1]}</p>
+                <div className={Styles.section}>
+                  <p className={Styles.heading}>{openingHours.formatted[0]}<br/>{openingHours.formatted[1]}</p>
+                </div>
                 <p className={Styles.body}>FREE Delivery with a $35 minumum.</p>
                 <p className={Styles.body}>Stop in to see (and smell!) our full selection<br/>of traditional Mexican pastries and bolillo<br/>(Mexican white bread) baked fresh daily!</p>
-                <p className={Styles.heading}>{address.streetAddress}<br/>{address.addressLocality}, {address.addressRegion} {address.postalCode}</p>
-                <p className={Styles.heading}>P {telephone}<br/>F {fax}</p>
+                <div className={Styles.section} id="#contact">
+                  <p className={Styles.heading}>{address.streetAddress}<br/>{address.addressLocality}, {address.addressRegion} {address.postalCode}</p>
+                  <p className={Styles.heading}>Call to order<br/>P {telephone}<br/>F {fax}</p>
+                </div>
                 <script type="application/ld+json">
                   {JSON.stringify(RestaurantSchema)}
                 </script>

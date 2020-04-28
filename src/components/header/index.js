@@ -1,5 +1,6 @@
 import React from 'react';
 import { Flex, Box } from 'rebass';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Styles from './header.module.scss'
 import Brand from '../brand'
 
@@ -9,7 +10,7 @@ const links_left = [
     value: "/#menu/all-day"
   },
   {
-    name: "Breakfast menu",
+    name: "Breakfast",
     value: "/#menu/breakfast"
   }
 ];
@@ -26,9 +27,7 @@ const links_right = [
 const navLinks = (link_arr) => {
   return (
     link_arr.map(({ name, value }) => (
-      <a className={Styles.link} key={name} href={value}>
-        {name}
-      </a>
+      <AnchorLink className={Styles.link} key={name} href={value}>{name}</AnchorLink>
     ))
   )
 }

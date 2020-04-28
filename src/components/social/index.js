@@ -12,13 +12,13 @@ export default class Markdown extends React.Component {
     return (
       <div className={styles.socialList}>
         <ul>
-          <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jasonjgeiger/">
+          <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/AztecaBakeries/">
             <FontAwesomeIcon size="2x" icon={faFacebookF} />
           </a></li>
           <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/jasonjgeiger">
             <FontAwesomeIcon size="2x" icon={faTwitter} />
           </a></li>
-          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/jasonjgeiger">
+          <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/azteca_phx/">
             <FontAwesomeIcon size="2x" icon={faInstagram} />
           </a></li>
         </ul>

@@ -1,20 +1,24 @@
 @import '../style/variables';
 
 .intro{
-    margin:1rem auto;
+    margin:0 auto;
+    .section{
+        padding:1rem 0;
+    }
     .heading{
+        margin:0;
         font-family: $fontHeading;
         font-weight: normal;
         font-size:$fontSizeHeading3;
         text-transform: uppercase;
         text-align: center;
-        letter-spacing:0.3em;
+        letter-spacing:0.4em;
     }
     .body{
         font-family: $fontBody;
         font-weight: normal;
         font-size:$fontSizeBase;
-        line-height: ($fontSizeBase * 2);
+        line-height: 1.5em;
         text-align: center;
     }
 }

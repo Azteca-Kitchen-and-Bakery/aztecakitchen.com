@@ -10,11 +10,11 @@ class Menu extends React.Component {
         return (
             <div className={styles.section}>
                 {items.map(({ type, value, size, columns }, index) => (
-                    <Box width={1} key={index}>
-                    {type === "title" && <Heading className={styles.heading} width={1} mt={4} mb={0}>{value}</Heading>}
-                    {type === "description" && <Text className={styles.description} width={1} mt={0} mb={3} dangerouslySetInnerHTML={{__html: value}} />}
-                    {type === "table" && <Table className={styles.table} data={value} size={size} columns={columns} />}
-                    </Box>
+                    <>
+                    {type === "title" && <h3 className={styles.heading}>{value}</h3>}
+                    {type === "description" && <p className={styles.description} dangerouslySetInnerHTML={{__html: value}} />}
+                    {type === "table" && <Table data={value} size={size} columns={columns} />}
+                    </>
                 ))}
             </div>
         )
