@@ -18,7 +18,7 @@
     &:after{
         right:3rem;
     }
-    @include breakpoint('max-width:800px'){
+    @include breakpoint('max-width:1200px'){
         display: none;
     }
 }
