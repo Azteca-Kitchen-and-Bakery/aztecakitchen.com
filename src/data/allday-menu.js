@@ -27,13 +27,13 @@ const AllDayMenuData = {
             size:[1,1/2],
             columns:2,
             value:[
-                {label:"Shredded Beef (Hard)", value:"2.50"},
-                {label:"1 Fajita<br/>Beef Or Chicken",value:"2.86"},
-                {label:"Chicken (Soft)",value:"2.50"},
-                {label:"3 Grilled (Soft)<br/>Beef or Chicken",value:"4.34"},
-                {label:"1 Rolled<br/>Beef or Chicken",value:"2.86"},
-                {label:"6 Pack Beef (Hard Only)",value:"10.50"},
-                {label:"1 Carnitas (Pork)<br/>with sauce & guacamole",value:"2.86"}
+                {label:"Shredded Beef (Hard)", value:"2.75"},
+                {label:"Chicken (Soft)",value:"2.75"},
+                {label:"1 Rolled<br/>Beef or Chicken",value:"3.00"},
+                {label:"1 Carnitas (Pork)<br/>with sauce & guacamole",value:"3.00"},
+                {label:"3 Grilled (Soft)<br/>Beef or Chicken",value:"4.35"},
+                {label:"6 Pack Beef (Hard Only)",value:"12.00"},
+                
             ]
         }
     ],
@@ -44,7 +44,7 @@ const AllDayMenuData = {
             size:[1],
             columns:1,
             value:[
-                {label:"Bean", value:"2.90"},
+                {label:"Bean", value:"2.00"},
                 {label:"Chicken or Beef", value:"3.00"}
             ]
         }
@@ -117,7 +117,7 @@ const AllDayMenuData = {
             size:[1,1/2],
             columns:2,
             value:[
-                {label:"Special of the Day<br/>Includes medium drink", value:"5.75"},
+                {label:"Special of the Day<br/>Includes medium drink", value:"7.75"},
                 {label:"#1 2 Flautas, Rice & Beans", value:"7.10"},
                 {label:"#2 2 Enchilidas, Rice & Beans", value:"7.10"},
                 {label:"#3 2 Tacos, Rice & Beans", value:"7.10"},
@@ -162,8 +162,8 @@ const AllDayMenuData = {
                 {label:"Cheese", value:"0.50"},
                 {label:"Rice", value:"2.00"},
                 {label:"Beans", value:"2.00"},
-                {label:"Guacamole (4oz)", value:"0.50"},
-                {label:"Salsa (2oz)", value:"2.00"},
+                {label:"Guacamole (4oz)", value:"2.00"},
+                {label:"Salsa (2oz)", value:"0.50"},
                 {label:"Salsa (8oz)", value:"2.00"},
                 {label:"Small Chips", value:"1.00"},
                 {label:"Medium Chips", value:"2.00"},

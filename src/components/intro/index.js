@@ -38,8 +38,12 @@ const Intro = () => (
                 <p className={Styles.body}>FREE Delivery with a $35 minumum.</p>
                 <p className={Styles.body}>Stop in to see (and smell!) our full selection<br/>of traditional Mexican pastries and bolillo<br/>(Mexican white bread) baked fresh daily!</p>
                 <div className={Styles.section} id="#contact">
-                  <p className={Styles.heading}>{address.streetAddress}<br/>{address.addressLocality}, {address.addressRegion} {address.postalCode}</p>
-                  <p className={Styles.heading}>Call to order<br/>P {telephone}<br/>F {fax}</p>
+                  <div className={Styles.section}>
+                    <p className={Styles.heading}>{address.streetAddress}<br/>{address.addressLocality}, {address.addressRegion} {address.postalCode}</p>
+                  </div>
+                  <div className={Styles.section}>
+                    <p className={Styles.heading}>Call to order<br/>P {telephone}<br/>F {fax}</p>
+                  </div>
                 </div>
                 <script type="application/ld+json">
                   {JSON.stringify(RestaurantSchema)}

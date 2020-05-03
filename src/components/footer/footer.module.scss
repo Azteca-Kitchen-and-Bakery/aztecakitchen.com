@@ -3,11 +3,11 @@
 .footer{
     &:before,&:after{
         position:fixed;
-        top:2.75rem;
+        top:3.75rem;
         content:"";
-        height:120px;
-        width:120px;
-        background-size:90px;
+        height:80px;
+        width:80px;
+        background-size:80px;
         background-image:url(../../assets/family-owned.svg);
         background-repeat: no-repeat;
         z-index:-1;

@@ -15,9 +15,9 @@ export default class Markdown extends React.Component {
           <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/AztecaBakeries/">
             <FontAwesomeIcon size="2x" icon={faFacebookF} />
           </a></li>
-          <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/jasonjgeiger">
+          {/* <li><a target="_blank" rel="noopener noreferrer" href="#">
             <FontAwesomeIcon size="2x" icon={faTwitter} />
-          </a></li>
+          </a></li> */}
           <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/azteca_phx/">
             <FontAwesomeIcon size="2x" icon={faInstagram} />
           </a></li>
