@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image } from 'rebass';
 import styles from './hero.module.scss';
-import HeroImage from '../../assets/hero.png';
+import HeroImage from '../../assets/hero.jpg';
 
 const Hero = () => (
     
