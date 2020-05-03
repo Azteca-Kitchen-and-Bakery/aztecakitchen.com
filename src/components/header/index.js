@@ -41,7 +41,7 @@ const Header = () => (
         className={Styles.header}
       >
         <Flex className={Styles.left} width={[1,1/3]}>
-          <div style={{"position":"absolute","right":0}}>
+          <div>
             {navLinks(links_left)}
           </div>
         </Flex>
@@ -55,7 +55,7 @@ const Header = () => (
           <Brand />
         </Box>
         <Flex className={Styles.right} width={[1,1/3]}>
-          <div style={{"position":"absolute","left":0}}>
+          <div>
             {navLinks(links_right)}
           </div>
         </Flex>

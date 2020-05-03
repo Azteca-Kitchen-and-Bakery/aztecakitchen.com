@@ -45,18 +45,3 @@ $breakpoints: (
 
 $fontHeading: 'Oswald', sans-serif;
 $fontBody: 'Nanum Gothic Coding', monospace;
-
-.font-heading{
-    font-family:$fontHeading;
-}
-.font-body{
-    font-family:$fontBody;
-}
-.hide-sm-only{
-
-}
-@include breakpoint('sm'){
-    .hide-md-only{
-        display:none;
-    }
-}

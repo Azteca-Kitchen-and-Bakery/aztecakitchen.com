@@ -12,4 +12,7 @@
         margin-left:0;
         margin-right:0;
     }
+    @include breakpoint('md'){
+        margin-top:2rem;
+    }
 }

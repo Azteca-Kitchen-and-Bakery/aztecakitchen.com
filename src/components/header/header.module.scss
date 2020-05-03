@@ -9,6 +9,16 @@
     padding:0.25rem 0 0;
     position: relative;
 }
+.left{
+    >div{
+        left:0;
+    }
+}
+.right{
+    >div{
+        right:0;
+    }
+}
 .link{
     position: relative;
     margin:0.3em;
@@ -45,17 +55,29 @@
         width:100%;
     }
 }
-@include breakpoint('sm'){
+@include breakpoint('max-width:640px'){
+    .header{
+        padding:3rem 0 0;
+    }
+    .left,.right{
+        display: block;
+        padding:0;
+        >div{
+            position: relative;
+            left:auto;
+            right:auto;
+            width:100%;
+        }
+    }
     .left{
         order:2;
-        display: block;
     }
     .center{
         order:1;
         display: block;
+        padding-bottom:1rem;
     }
     .right{
         order:3;
-        display: block;
     }
 }

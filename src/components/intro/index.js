@@ -31,12 +31,12 @@ const Intro = () => (
         
         return (
             <div className={Styles.intro}>
-                <h2 className={Styles.body}>Serving authentic Mexican family recipes<br className="hide-md-only" />for Breakfast, Lunch and Dinner.<br/>All-natural ingredients. No Preservatives.</h2>
+                <h2 className={Styles.body}>Serving authentic Mexican family recipe&nbsp;<br className={Styles.hideMdDown}/>for Breakfast, Lunch and Dinner.&nbsp;<br className={Styles.hideMdDown}/>All-natural ingredients. No Preservatives.</h2>
                 <div className={Styles.section}>
                   <p className={Styles.heading}>{openingHours.formatted[0]}<br/>{openingHours.formatted[1]}</p>
                 </div>
                 <p className={Styles.body}>FREE Delivery with a $35 minumum.</p>
-                <p className={Styles.body}>Stop in to see (and smell!) our full selection<br/>of traditional Mexican pastries and bolillo<br/>(Mexican white bread) baked fresh daily!</p>
+                <p className={Styles.body}>Stop in to see (and smell!) our full selection&nbsp;<br className={Styles.hideMdDown}/>of traditional Mexican pastries and bolillo&nbsp;<br className={Styles.hideMdDown}/>(Mexican white bread) baked fresh daily!</p>
                 <div className={Styles.section} id="#contact">
                   <div className={Styles.section}>
                     <p className={Styles.heading}>{address.streetAddress}<br/>{address.addressLocality}, {address.addressRegion} {address.postalCode}</p>
