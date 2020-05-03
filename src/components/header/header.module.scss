@@ -11,12 +11,14 @@
 }
 .left{
     >div{
-        left:0;
+        position: absolute;
+        right:0;
     }
 }
 .right{
     >div{
-        right:0;
+        position: absolute;
+        left:0;
     }
 }
 .link{

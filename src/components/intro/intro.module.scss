@@ -25,6 +25,13 @@
         line-height: 1.5em;
         text-align: center;
     }
+    a,a:visited,a:active{
+        color:$colorBlue;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
 }
 @include breakpoint('max-width:640px'){
     .hideMdDown{
