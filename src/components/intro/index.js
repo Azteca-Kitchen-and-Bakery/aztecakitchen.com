@@ -35,8 +35,15 @@ const Intro = () => (
                 <div className={Styles.section}>
                   <p className={Styles.heading}>{openingHours.formatted[0]}<br/>{openingHours.formatted[1]}</p>
                 </div>
-                <p className={Styles.body}>FREE Delivery with a $35 minumum.</p>
-                <p className={Styles.body}>Stop in to see (and smell!) our full selection&nbsp;<br className={Styles.hideMdDown}/>of traditional Mexican pastries and bolillo&nbsp;<br className={Styles.hideMdDown}/>(Mexican white bread) baked fresh daily!</p>
+                <div className={Styles.subsection}>
+                  <p className={Styles.body}>Take-Out Only&nbsp;<br className={Styles.hideMdDown}/>Check out our Family Dinners.&nbsp;<br className={Styles.hideMdDown}/>FREE Delivery with a $50 minumum.</p>
+                </div>
+                <div className={Styles.subsection}>
+                  <p className={Styles.body}>FRESH TORTILLAS DAILY</p>
+                </div>
+                <div className={Styles.subsection}>
+                  <p className={Styles.body}>Full selection of traditional Mexican&nbsp;<br className={Styles.hideMdDown}/>pastries and Bolillo (Mexican white bread)&nbsp;<br className={Styles.hideMdDown}/>baked fresh daily!</p>
+                </div>
                 <div className={Styles.section} id="#contact">
                   <div className={Styles.section}>
                     <p className={Styles.heading}><a href={`maps://?q=${address.streetAddress}${address.addressLocality}, ${address.addressRegion} ${address.postalCode}`}>{address.streetAddress}<br/>{address.addressLocality}, {address.addressRegion} {address.postalCode}</a></p>
