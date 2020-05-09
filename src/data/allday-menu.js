@@ -15,7 +15,7 @@ const AllDayMenuData = {
                 {label:"Beans", value:"3.75"},
                 {label:"Chile Relleno", value:"5.75"},
                 {label:"Carnitas (Pork)", value:"5.75"},
-                {label:"Carne Asada", value:"5.75"},
+                {label:"Carne Asada", value:"6.35"},
                 {label:"Vegetarian", value:"4.75"}
             ]
         }
@@ -44,7 +44,7 @@ const AllDayMenuData = {
             size:[1],
             columns:1,
             value:[
-                {label:"Bean", value:"2.00"},
+                {label:"Bean", value:"2.50"},
                 {label:"Chicken or Beef", value:"3.00"}
             ]
         }
@@ -70,7 +70,7 @@ const AllDayMenuData = {
             value:[
                 {label:"Beef with Red Chile", value:"3.00"},
                 {label:"Green with Cheese", value:"3.00"},
-                {label:"1 Dozen", value:"28.00"}
+                {label:"1 Dozen", value:"30.00"}
             ]
         }
         
@@ -106,7 +106,7 @@ const AllDayMenuData = {
             size:[1],
             columns:1,
             value:[
-                {label:"Saturdays Only", value:"7.00"}
+                {label:"Saturdays Only", value:"7.25"}
             ]
         }
     ],
@@ -128,7 +128,7 @@ const AllDayMenuData = {
                 {label:"#8 Green Chile, Rice & Beans", value:"8.10"},
                 {label:"#9 Machaca, Rice & Beans", value:"8.75"},
                 {label:"#10 Chile Relleno, Rice & Beans", value:"8.75"},
-                {label:"#11 Chimichanga, Rice & Beans", value:"8.75"},
+                {label:"#11 Chimichanga, Rice & Beans<br/>(Green, Red or Chicken add $1)", value:"8.75"},
                 {label:"#12 Carnitas, Rice & Beans", value:"8.75"},
                 {label:"#13 Carne Asada, Rice & Beans", value:"9.25"},
                 {label:"#14 Fajita Plate<br/>(Beef Or Chicken)", value:"9.25"}
@@ -160,8 +160,8 @@ const AllDayMenuData = {
             value:[
                 {label:"Tortilla", value:"1.00"},
                 {label:"Cheese", value:"0.50"},
-                {label:"Rice", value:"2.00"},
-                {label:"Beans", value:"2.00"},
+                {label:"Rice (4oz)", value:"2.00"},
+                {label:"Beans (4oz)", value:"2.00"},
                 {label:"Guacamole (4oz)", value:"2.00"},
                 {label:"Salsa (2oz)", value:"0.50"},
                 {label:"Salsa (8oz)", value:"2.00"},

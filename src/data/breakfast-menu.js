@@ -9,13 +9,13 @@ const BreakfastMenuData = {
       value: `All plates served with beans & your choice of tortilla or bread.`
     },
     { type: "columnHeadings", value: ["Burro", "Torta", "Plate"] },
-    { type: "subtitle", value: "Potatos" },
+    { type: "subtitle", value: "Potatoes" },
     {
       type: "columns",
       value: [
         { label: "Chorizo", value: ["4.75", "4.95", "6.50"] },
         { label: "Machaca", value: ["4.75", "4.95", "6.50"] },
-        { label: "Eggs", value: ["4.75", "4.95", "6.50"] }
+        { label: "Eggs", value: ["4.50", "4.95", "6.50"] }
       ]
     },
     { type: "subtitle", value: "Eggs" },
