@@ -47,9 +47,9 @@
         transform: rotate(-1deg);
         transition: all 100ms;
     }
-    &:hover{
-       &:before{width:9rem;}
-    }
+}
+.link:hover,.active{
+    &:before{width:9rem;}
 }
 @include breakpoint('max-width:1023px'){
     .header{

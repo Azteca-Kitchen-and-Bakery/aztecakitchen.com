@@ -1,5 +1,6 @@
 import React from 'react';
-import {Link, Image} from 'rebass';
+import {Link} from 'gatsby'
+import {Image} from 'rebass';
 import Logo from '../../assets/azteca-logo.svg';
 
 const logoStyle = {
@@ -7,7 +8,7 @@ const logoStyle = {
 }
 
 const Brand = () => (
-    <Link href="/">
+    <Link to="/">
         <Image width={[1/2,1/4]} src={Logo} style={logoStyle} />
     </Link>
 );
