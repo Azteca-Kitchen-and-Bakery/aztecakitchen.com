@@ -43,7 +43,7 @@ class Header extends React.Component {
               to="/family-style-menu">Family style</Link>
             <Link 
               activeClassName={Styles.active}
-              className={Styles.link} to="/#contact">Contact</Link>
+              className={Styles.link} to="/contact">Contact</Link>
             </div>
         </Flex>
       </Flex>
