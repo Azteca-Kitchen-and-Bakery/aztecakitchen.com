@@ -22,10 +22,10 @@ const FamilyMenuData = {
             size:[1,1/2],
             columns:2,
             value:[
-                {label:"Machaca (Shredded Beef)", value:"12.50/lb"},
-                {label:"Carnitas (Pork Roast)", value:"12.50/lb"},
-                {label:"Red Chili & Beef", value:"10.50/lb"},
-                {label:"Green Chili & Beef", value:"10.50/lb"},
+                {label:"Machaca (Shredded Beef)", value:"13.50/lb"},
+                {label:"Carnitas (Pork Roast)", value:"13.50/lb"},
+                {label:"Red Chili & Beef", value:"12.50/lb"},
+                {label:"Green Chili & Beef", value:"12.50/lb"},
                 {label:"Beans", value:"4.50/lb"},
                 {label:"Rice", value:"4.50/lb"},
                 {label:"Mini Platter", value:"40 Items 55.00"}

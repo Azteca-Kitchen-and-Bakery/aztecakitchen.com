@@ -13,37 +13,37 @@ const BreakfastMenuData = {
     {
       type: "columns",
       value: [
-        { label: "Chorizo", value: ["4.75", "4.95", "6.50"] },
-        { label: "Machaca", value: ["4.75", "4.95", "6.50"] },
-        { label: "Eggs", value: ["4.50", "4.95", "6.50"] }
+        { label: "Chorizo", value: ["5.25", "4.95", "7.00"] },
+        { label: "Machaca", value: ["5.25", "4.95", "7.00"] },
+        { label: "Eggs", value: ["5.25", "4.95", "7.00"] }
       ]
     },
     { type: "subtitle", value: "Eggs" },
     {
       type: "columns",
       value: [
-        { label: "Chorizo", value: ["4.75", "4.95", "6.50"] },
-        { label: "Machaca", value: ["4.75", "4.95", "6.50"] },
-        { label: "Rancheros", value: ["4.75", "4.95", "6.50"] },
-        { label: "Ham", value: ["4.75", "4.95", "6.50"] },
-        { label: "Bacon", value: ["4.75", "4.95", "6.50"] },
-        { label: "Asada", value: ["5.75", "", ""] }
+        { label: "Chorizo", value: ["5.25", "4.95", "7.00"] },
+        { label: "Machaca", value: ["5.25", "4.95", "7.00"] },
+        { label: "Rancheros", value: ["5.25", "4.95", "7.00"] },
+        { label: "Ham", value: ["5.25", "4.95", "7.00"] },
+        { label: "Bacon", value: ["5.25", "4.95", "7.00"] },
+        { label: "Asada", value: ["6.25", "", "7.75"] }
       ]
     },
     { type: "subtitle", value: "Omlette" },
     {
       type: "columns",
       value: [
-        { label: "Cheese", value: ["", "", "6.50"] },
-        { label: "Machaca", value: ["", "", "6.50"] },
-        { label: "Eggs", value: ["", "", "6.50"] }
+        { label: "Cheese", value: ["", "", "7.00"] },
+        { label: "Machaca", value: ["", "", "7.00"] },
+        { label: "Eggs", value: ["", "", "7.00"] }
       ]
     },
     { type: "divide", value: "" },
     {
       type: "columns",
       value: [
-        { label: "Burros Chicos (Small)<br/>Choose 2 items only", value: ["3.00", "", ""] },
+        { label: "Burros Chicos (Small)<br/>Choose 2 items only", value: ["3.50", "", ""] },
         { label: "Cheese $ .25", value: ["", "", ""] }
       ]
     }
