@@ -15,7 +15,7 @@ const BreakfastMenuData = {
       value: [
         { label: "Chorizo", value: ["5.25", "4.95", "7.00"] },
         { label: "Machaca", value: ["5.25", "4.95", "7.00"] },
-        { label: "Eggs", value: ["5.25", "4.95", "7.00"] }
+        { label: "Eggs", value: ["5.00", "4.95", "7.00"] }
       ]
     },
     { type: "subtitle", value: "Eggs" },
