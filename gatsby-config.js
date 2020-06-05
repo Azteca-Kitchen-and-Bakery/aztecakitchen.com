@@ -23,11 +23,11 @@ module.exports = {
       openingHours: {
         formatted:[
           "M-F 6:30am to 4pm",
-          "Sat 6:30 till 2pm"
+          "Sat 7:00 till 2pm"
         ],
         schema:[   
           "Mo-Fr 06:30-16:00",
-          "Sa 06:30-14:00",
+          "Sa 07:00-14:00",
         ]
       },
       "priceRange": "$",
