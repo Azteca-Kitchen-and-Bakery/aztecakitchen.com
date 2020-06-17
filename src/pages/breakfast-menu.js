@@ -10,7 +10,7 @@ const menuSchema = {
   "@context": "http://schema.org",
   "@type": "Menu",
   "name": "Breakfast menu",
-  "mainEntityOfPage": `https://aztecakitchen.com/breakfast-menu`,
+  "mainEntityOfPage": `https://www.aztecakitchen.com/breakfast-menu`,
   "inLanguage": "English",
   "offers": {
     "@type": "Offer",

@@ -11,19 +11,19 @@ function Intro(props) {
         query IntroQuery {
           site {
             siteMetadata {
-                business{
-                    address{
-                        addressLocality
-                        addressRegion
-                        postalCode
-                        streetAddress
-                    }
-                    openingHours{
-                        formatted
-                    }
-                    telephone
-                    fax
+              business{
+                address{
+                  addressLocality
+                  addressRegion
+                  postalCode
+                  streetAddress
                 }
+                openingHours{
+                  formatted
+                }
+                telephone
+                fax
+              }
             }
           }
         }

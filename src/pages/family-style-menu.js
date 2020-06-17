@@ -10,11 +10,11 @@ const menuSchema = {
   "@context": "http://schema.org",
   "@type": "Menu",
   "name": "Family style menu",
-  "mainEntityOfPage": `https://aztecakitchen.com/family-style-menu`,
+  "mainEntityOfPage": `https://www.aztecakitchen.com/family-style-menu`,
   "inLanguage": "English"
 }
 
-const IndexPage = () => (
+const FamilyStylePage = () => (
    <Layout>
      <ReactHelmet>
       <script type="application/ld+json">
@@ -31,5 +31,5 @@ const IndexPage = () => (
     </div>
   </Layout>
 );
-export default IndexPage;
+export default FamilyStylePage;
 
