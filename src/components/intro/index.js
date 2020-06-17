@@ -49,7 +49,7 @@ function Intro(props) {
       }
         <div className={Styles.subsection} id="#contact">
           <div className={Styles.section}>
-            <p className={Styles.heading}><a href={`maps://?q=${data.site.siteMetadata.business.address.streetAddress}${data.site.siteMetadata.business.address.addressLocality}, ${data.site.siteMetadata.business.address.addressRegion} ${data.site.siteMetadata.business.address.postalCode}`}>{data.site.siteMetadata.business.address.streetAddress}<br/>{data.site.siteMetadata.business.address.addressLocality}, {data.site.siteMetadata.business.address.addressRegion} {data.site.siteMetadata.business.address.postalCode}</a></p>
+            <p className={Styles.heading}><a href={`https://maps.google.com?q=${data.site.siteMetadata.business.address.streetAddress}${data.site.siteMetadata.business.address.addressLocality}, ${data.site.siteMetadata.business.address.addressRegion} ${data.site.siteMetadata.business.address.postalCode}`}>{data.site.siteMetadata.business.address.streetAddress}<br/>{data.site.siteMetadata.business.address.addressLocality}, {data.site.siteMetadata.business.address.addressRegion} {data.site.siteMetadata.business.address.postalCode}</a></p>
           </div>
           <div className={Styles.section}>
             <p className={Styles.heading}>Call to order<br/>P <a href={`tel:${data.site.siteMetadata.business.telephone}`}>{data.site.siteMetadata.business.telephone}</a><br/>F {data.site.siteMetadata.business.fax}</p>

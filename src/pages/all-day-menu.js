@@ -9,7 +9,7 @@ const IndexPage = () => (
    <Layout>
     <div className={Styles.main}>
       <div className={Styles.section}>
-          <h2 className={Styles.heading} id="#menu/all-day">All day menu</h2>
+          <h2 className={Styles.heading}>All day menu</h2>
           <AllDayMenu />
           <Intro minimal={true} />
           <Social />

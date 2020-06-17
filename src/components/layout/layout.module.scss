@@ -37,6 +37,7 @@ body{
     z-index:1;
     font-family:$fontBody;
     background:white;
+    min-height:100vh;
     &:before, &:after{
       position:fixed;
       top:0;

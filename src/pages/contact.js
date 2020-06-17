@@ -8,7 +8,8 @@ const ContactPage = () => (
    <Layout>
       <div className={Styles.main}>
         <div className={Styles.section}>
-          <Intro className={Styles.intro} />
+        <h2 className={Styles.heading}>Contact</h2>
+          <Intro  minimal={false} className={Styles.intro} />
           <Social className={Styles.social} />
         </div>
       </div>

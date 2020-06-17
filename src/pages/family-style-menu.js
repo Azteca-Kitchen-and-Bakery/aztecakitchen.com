@@ -9,7 +9,7 @@ const IndexPage = () => (
    <Layout>
     <div className={Styles.main}>
       <div className={Styles.section}>
-        <h2 className={Styles.heading} id="#menu/family-style">Family style</h2>
+        <h2 className={Styles.heading}>Family style</h2>
         <FamilyMenu />
         <Intro minimal={true} />
         <Social />
