@@ -51,9 +51,32 @@ const Helmet = () => (
         },
         "openingHours": siteMeta.business.openingHours.schema,
         "priceRange": siteMeta.business.priceRange,
-        "servesCuisine": siteMeta.business.servesCuisine
+        "servesCuisine": siteMeta.business.servesCuisine,
+        "hasMenu": [
+          {
+           "@type": "Menu",
+           "name": "Breakfast menu",
+           "url": `${siteMeta.business.url}/breakfast-menu`,
+           "inLanguage": "English",
+            "offers": {
+            "@type": "Offer",
+            "availabilityEnds": "T12:00"
+            }
+          },
+          {
+           "@type": "Menu",
+           "name": "All-day menu",
+           "url": `${siteMeta.business.url}/all-day-menu`,
+           "inLanguage": "English",
+          },
+          {
+            "@type": "Menu",
+            "name": "Family style menu",
+            "url": `${siteMeta.business.url}/family-style-menu`,
+            "inLanguage": "English",
+           }
+        ]
       }
-      const menuSchema = {}
       return (
         <ReactHelmet>
             <meta charSet="utf-8" />
@@ -62,9 +85,6 @@ const Helmet = () => (
             {/* <meta name="description" content={description} /> */}
             <script type="application/ld+json">
               {JSON.stringify(restuarantSchema)}
-            </script>
-            <script type="application/ld+json">
-              {JSON.stringify(menuSchema)}
             </script>
         </ReactHelmet>
       );

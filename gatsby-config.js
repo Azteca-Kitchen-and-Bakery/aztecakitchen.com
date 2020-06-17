@@ -10,8 +10,8 @@ module.exports = {
     author: `Jason J Geiger (130public.net)`,
     business: {
       name:"Azteca Kitchen & Bakery",
-      url:"http://aztecakitchenandbakery.com/",
-      image: "http://aztecakitchenandbakery.com/assets/azteca-logo.svg",
+      url:"https://www.aztecakitchen.com",
+      image: "https://www.aztecakitchen.com/assets/azteca-logo.svg",
       address:{
         addressLocality: `Phoenix`,
         addressRegion: `AZ`,
