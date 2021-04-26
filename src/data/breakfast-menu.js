@@ -14,7 +14,7 @@ const BreakfastMenuData = {
       type: "columns",
       value: [
         { label: "Chorizo", value: ["6.25", "5.95", "7.75"] },
-        { label: "Machaca", value: ["6.25", "4.95", "7.75"] },
+        { label: "Machaca", value: ["6.25", "5.95", "7.75"] },
         { label: "Eggs", value: ["6.00", "5.95", "7.75"] }
       ]
     },
@@ -44,7 +44,7 @@ const BreakfastMenuData = {
       type: "columns",
       value: [
         { label: "Burros Chicos (Small)<br/>Choose 2 items only", value: ["4.00", "", ""] },
-        { label: "Cheese", value: ["$ 1.00", "", ""] }
+        { label: "Cheese", value: ["1.00", "", ""] }
       ]
     }
   ]

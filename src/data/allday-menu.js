@@ -120,7 +120,7 @@ const AllDayMenuData = {
                 {label:"Special of the Day<br/>Includes medium drink", value:"7.75"},
                 {label:"#1 2 Flautas, Rice & Beans", value:"8.75"},
                 {label:"#2 2 Enchilidas, Rice & Beans", value:"8.75"},
-                {label:"#3 2 Tacos, Rice & Beans", value:"7875"},
+                {label:"#3 2 Tacos, Rice & Beans", value:"8.75"},
                 {label:"#4 Tostada, 1 Taco, Rice & Beans", value:"8.75"},
                 {label:"#5 1 Taco Or Tostada Rice & Beans", value:"7.00"},
                 {label:"#6 2 Tamales, Rice & Beans", value:"8.75"},
@@ -128,7 +128,7 @@ const AllDayMenuData = {
                 {label:"#8 Green Chile, Rice & Beans", value:"8.75"},
                 {label:"#9 Machaca, Rice & Beans", value:"9.75"},
                 {label:"#10 Chile Relleno, Rice & Beans", value:"9.75"},
-                {label:"#11 Chimichanga, Rice & Beans<br/>(Green, Red or Chicken add $1)", value:"10.00"},
+                {label:"#11 Chimichanga, Rice & Beans", value:"10.75"},
                 {label:"#12 Carnitas, Rice & Beans", value:"10.75"},
                 {label:"#13 Carne Asada, Rice & Beans", value:"10.75"},
                 {label:"#14 Fajita Plate<br/>(Beef Or Chicken)", value:"10.75"}
