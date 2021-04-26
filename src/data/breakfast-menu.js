@@ -13,38 +13,38 @@ const BreakfastMenuData = {
     {
       type: "columns",
       value: [
-        { label: "Chorizo", value: ["5.25", "4.95", "7.00"] },
-        { label: "Machaca", value: ["5.25", "4.95", "7.00"] },
-        { label: "Eggs", value: ["5.00", "4.95", "7.00"] }
+        { label: "Chorizo", value: ["6.25", "5.95", "7.75"] },
+        { label: "Machaca", value: ["6.25", "4.95", "7.75"] },
+        { label: "Eggs", value: ["6.00", "5.95", "7.75"] }
       ]
     },
     { type: "subtitle", value: "Eggs" },
     {
       type: "columns",
       value: [
-        { label: "Chorizo", value: ["5.25", "4.95", "7.00"] },
-        { label: "Machaca", value: ["5.25", "4.95", "7.00"] },
-        { label: "Rancheros", value: ["5.25", "4.95", "7.00"] },
-        { label: "Ham", value: ["5.25", "4.95", "7.00"] },
-        { label: "Bacon", value: ["5.25", "4.95", "7.00"] },
-        { label: "Asada", value: ["6.25", "", "7.75"] }
+        { label: "Chorizo", value: ["6.25", "5.95", "7.75"] },
+        { label: "Machaca", value: ["6.25", "5.95", "7.75"] },
+        { label: "Rancheros", value: ["6.25", "5.95", "7.75"] },
+        { label: "Ham", value: ["6.25", "5.95", "7.75"] },
+        { label: "Bacon", value: ["6.25", "5.95", "7.75"] },
+        { label: "Asada", value: ["7.75", "", "8.25"] }
       ]
     },
     { type: "subtitle", value: "Omlette" },
     {
       type: "columns",
       value: [
-        { label: "Cheese", value: ["", "", "7.00"] },
-        { label: "Machaca", value: ["", "", "7.00"] },
-        { label: "Eggs", value: ["", "", "7.00"] }
+        { label: "Cheese", value: ["", "", "8.00"] },
+        { label: "Machaca", value: ["", "", "8.00"] },
+        { label: "Eggs", value: ["", "", "8.00"] }
       ]
     },
     { type: "divide", value: "" },
     {
       type: "columns",
       value: [
-        { label: "Burros Chicos (Small)<br/>Choose 2 items only", value: ["3.50", "", ""] },
-        { label: "Cheese $ .25", value: ["", "", ""] }
+        { label: "Burros Chicos (Small)<br/>Choose 2 items only", value: ["4.00", "", ""] },
+        { label: "Cheese", value: ["$ 1.00", "", ""] }
       ]
     }
   ]
